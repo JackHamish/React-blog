@@ -68,7 +68,7 @@ const EditPostPage = () => {
             <div className="flex object-cover py-2  position: relative">
                 {oldImage && (
                     <>
-                        <img src={`http://localhost:3002/${oldImage}`} alt={oldImage.name} />{" "}
+                        <img src={`https://react-blog-mern.herokuapp.com/${oldImage}`} alt={oldImage.name} />{" "}
                         <button
                             type="button"
                             onClick={() => setOldImage("")}
