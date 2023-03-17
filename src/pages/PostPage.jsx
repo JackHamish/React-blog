@@ -79,7 +79,7 @@ const PostPage = () => {
                         <div className={post.imageUrl ? "flex rounded-sm h-88" : "flex rounded-sm"}>
                             {post.imageUrl && (
                                 <img
-                                    src={`https://react-blog-mern.herokuapp.com/${post.imageUrl}`}
+                                    src={`https://react-blog-back.onrender.com/${post.imageUrl}`}
                                     alt="img"
                                     className="object-cover  w-full"
                                 />

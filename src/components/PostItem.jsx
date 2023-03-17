@@ -10,7 +10,7 @@ const PostItem = ({ _id, imageUrl, username, title, text, createdAt, views, come
                 <div className={imageUrl ? "flex rounded-sm h-88" : "flex rounded-sm"}>
                     {imageUrl && (
                         <img
-                            src={`https://react-blog-mern.herokuapp.com/${imageUrl}`}
+                            src={`https://react-blog-back.onrender.com/${imageUrl}`}
                             alt="img"
                             className="object-cover  w-full"
                         />
